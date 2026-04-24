@@ -42,7 +42,7 @@
     .hero-partners { margin-top: 48px; font-size: 11px; letter-spacing: 0.15em; color: rgba(255,255,255,0.45); }
 
     /* Miratuku seed symbol - decorative */
-    .hero-symbol { position: absolute; right: 5%; top: 50%; transform: translateY(-50%); width: 380px; height: 380px; opacity: 0.12; z-index: 0; }
+    .hero-symbol { position: absolute; right: 5%; top: 50%; transform: translateY(-50%); width: 380px; height: 380px; opacity: 0.15; z-index: 0; object-fit: contain; }
 
     /* Sections */
     section { padding: 80px 32px; }
@@ -72,7 +72,7 @@
     .concept-line { width: 60px; height: 2px; background: var(--sand); margin-bottom: 24px; }
     .concept p { font-size: 15px; color: rgba(255,255,255,0.75); line-height: 2; }
     .concept-visual { display: flex; align-items: center; justify-content: center; }
-    .concept-symbol { width: 280px; height: 280px; opacity: 0.25; }
+    .concept-symbol { width: 280px; height: 280px; opacity: 0.25; object-fit: contain; }
 
     /* Project Structure - 3 Parts */
     .parts-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; border: 1px solid #d5d0ca; }
@@ -262,46 +262,7 @@
 
 <!-- Hero -->
 <section class="hero">
-  <!-- Decorative seed symbol -->
-  <svg class="hero-symbol" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-    <g opacity="1">
-      <ellipse cx="200" cy="140" rx="14" ry="8" fill="#F0A671" transform="rotate(-30 200 140)"/>
-      <ellipse cx="230" cy="150" rx="12" ry="7" fill="#F2C792" transform="rotate(-15 230 150)"/>
-      <ellipse cx="255" cy="165" rx="14" ry="8" fill="#DC8766" transform="rotate(10 255 165)"/>
-      <ellipse cx="270" cy="190" rx="13" ry="7" fill="#F8CDAC" transform="rotate(30 270 190)"/>
-      <ellipse cx="275" cy="218" rx="14" ry="8" fill="#B07256" transform="rotate(50 275 218)"/>
-      <ellipse cx="268" cy="245" rx="12" ry="7" fill="#F0BE83" transform="rotate(70 268 245)"/>
-      <ellipse cx="250" cy="268" rx="14" ry="8" fill="#7A4033" transform="rotate(90 250 268)"/>
-      <ellipse cx="225" cy="282" rx="13" ry="7" fill="#EFC4A4" transform="rotate(110 225 282)"/>
-      <ellipse cx="198" cy="285" rx="14" ry="8" fill="#966D5E" transform="rotate(130 198 285)"/>
-      <ellipse cx="172" cy="278" rx="12" ry="7" fill="#F7BEA2" transform="rotate(150 172 278)"/>
-      <ellipse cx="152" cy="260" rx="14" ry="8" fill="#CEA26F" transform="rotate(170 152 260)"/>
-      <ellipse cx="140" cy="235" rx="13" ry="7" fill="#DC8766" transform="rotate(-170 140 235)"/>
-      <ellipse cx="138" cy="210" rx="14" ry="8" fill="#F0A671" transform="rotate(-150 138 210)"/>
-      <ellipse cx="145" cy="185" rx="12" ry="7" fill="#F1C189" transform="rotate(-130 145 185)"/>
-      <ellipse cx="160" cy="162" rx="14" ry="8" fill="#B07256" transform="rotate(-110 160 162)"/>
-      <ellipse cx="180" cy="148" rx="13" ry="7" fill="#F8CDAC" transform="rotate(-90 180 148)"/>
-      <!-- Inner ring -->
-      <ellipse cx="200" cy="175" rx="11" ry="6" fill="#F0BE83" transform="rotate(-20 200 175)"/>
-      <ellipse cx="222" cy="183" rx="10" ry="6" fill="#7A4033" transform="rotate(5 222 183)"/>
-      <ellipse cx="238" cy="200" rx="11" ry="6" fill="#F2C792" transform="rotate(30 238 200)"/>
-      <ellipse cx="240" cy="222" rx="10" ry="6" fill="#966D5E" transform="rotate(55 240 222)"/>
-      <ellipse cx="230" cy="242" rx="11" ry="6" fill="#F0A671" transform="rotate(80 230 242)"/>
-      <ellipse cx="210" cy="252" rx="10" ry="6" fill="#DC8766" transform="rotate(105 210 252)"/>
-      <ellipse cx="188" cy="250" rx="11" ry="6" fill="#EFC4A4" transform="rotate(130 188 250)"/>
-      <ellipse cx="170" cy="238" rx="10" ry="6" fill="#B07256" transform="rotate(155 170 238)"/>
-      <ellipse cx="163" cy="218" rx="11" ry="6" fill="#F8CDAC" transform="rotate(180 163 218)"/>
-      <ellipse cx="165" cy="198" rx="10" ry="6" fill="#CEA26F" transform="rotate(-155 165 198)"/>
-      <ellipse cx="178" cy="180" rx="11" ry="6" fill="#F7BEA2" transform="rotate(-130 178 180)"/>
-      <!-- Center -->
-      <ellipse cx="200" cy="205" rx="9" ry="5" fill="#7A4033" transform="rotate(15 200 205)"/>
-      <ellipse cx="215" cy="215" rx="8" ry="5" fill="#F0A671" transform="rotate(45 215 215)"/>
-      <ellipse cx="210" cy="232" rx="9" ry="5" fill="#966D5E" transform="rotate(75 210 232)"/>
-      <ellipse cx="192" cy="235" rx="8" ry="5" fill="#DC8766" transform="rotate(105 192 235)"/>
-      <ellipse cx="182" cy="220" rx="9" ry="5" fill="#F0BE83" transform="rotate(135 182 220)"/>
-      <ellipse cx="190" cy="208" rx="8" ry="5" fill="#B07256" transform="rotate(-45 190 208)"/>
-    </g>
-  </svg>
+  <img src="images/logo-mark.png" alt="" class="hero-symbol">
   <div class="hero-content">
     <div class="hero-label">未来洞察実装プロジェクト 2026</div>
     <h1>伝統知が拓く、<br>未来創造のイノベーション</h1>
@@ -367,43 +328,7 @@
         <p>未来は、未知の彼方からやって来るものではない。先住民の航海術、土地に根ざした知恵、世代を超えて受け継がれた身体的判断。それらの中に、"次の世界のかたち"はすでに宿っている。</p>
       </div>
       <div class="concept-visual">
-        <svg class="concept-symbol" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-          <g opacity="1">
-            <ellipse cx="150" cy="95" rx="12" ry="7" fill="#F0A671" transform="rotate(-30 150 95)"/>
-            <ellipse cx="175" cy="103" rx="11" ry="6" fill="#F2C792" transform="rotate(-10 175 103)"/>
-            <ellipse cx="195" cy="118" rx="12" ry="7" fill="#DC8766" transform="rotate(15 195 118)"/>
-            <ellipse cx="208" cy="140" rx="11" ry="6" fill="#F8CDAC" transform="rotate(35 208 140)"/>
-            <ellipse cx="212" cy="164" rx="12" ry="7" fill="#B07256" transform="rotate(55 212 164)"/>
-            <ellipse cx="206" cy="188" rx="11" ry="6" fill="#F0BE83" transform="rotate(75 206 188)"/>
-            <ellipse cx="190" cy="207" rx="12" ry="7" fill="#7A4033" transform="rotate(95 190 207)"/>
-            <ellipse cx="168" cy="218" rx="11" ry="6" fill="#EFC4A4" transform="rotate(115 168 218)"/>
-            <ellipse cx="145" cy="220" rx="12" ry="7" fill="#966D5E" transform="rotate(135 145 220)"/>
-            <ellipse cx="123" cy="213" rx="11" ry="6" fill="#F7BEA2" transform="rotate(155 123 213)"/>
-            <ellipse cx="107" cy="198" rx="12" ry="7" fill="#CEA26F" transform="rotate(175 107 198)"/>
-            <ellipse cx="98" cy="176" rx="11" ry="6" fill="#DC8766" transform="rotate(-165 98 176)"/>
-            <ellipse cx="96" cy="152" rx="12" ry="7" fill="#F0A671" transform="rotate(-145 96 152)"/>
-            <ellipse cx="102" cy="130" rx="11" ry="6" fill="#F1C189" transform="rotate(-125 102 130)"/>
-            <ellipse cx="115" cy="112" rx="12" ry="7" fill="#B07256" transform="rotate(-105 115 112)"/>
-            <ellipse cx="133" cy="100" rx="11" ry="6" fill="#F8CDAC" transform="rotate(-85 133 100)"/>
-            <ellipse cx="150" cy="130" rx="9" ry="5" fill="#F0BE83" transform="rotate(-15 150 130)"/>
-            <ellipse cx="170" cy="138" rx="8" ry="5" fill="#7A4033" transform="rotate(10 170 138)"/>
-            <ellipse cx="183" cy="152" rx="9" ry="5" fill="#F2C792" transform="rotate(35 183 152)"/>
-            <ellipse cx="185" cy="170" rx="8" ry="5" fill="#966D5E" transform="rotate(60 185 170)"/>
-            <ellipse cx="177" cy="186" rx="9" ry="5" fill="#F0A671" transform="rotate(85 177 186)"/>
-            <ellipse cx="160" cy="194" rx="8" ry="5" fill="#DC8766" transform="rotate(110 160 194)"/>
-            <ellipse cx="142" cy="192" rx="9" ry="5" fill="#EFC4A4" transform="rotate(135 142 192)"/>
-            <ellipse cx="128" cy="182" rx="8" ry="5" fill="#B07256" transform="rotate(160 128 182)"/>
-            <ellipse cx="122" cy="166" rx="9" ry="5" fill="#F8CDAC" transform="rotate(-175 122 166)"/>
-            <ellipse cx="125" cy="148" rx="8" ry="5" fill="#CEA26F" transform="rotate(-150 125 148)"/>
-            <ellipse cx="136" cy="135" rx="9" ry="5" fill="#F7BEA2" transform="rotate(-125 136 135)"/>
-            <ellipse cx="150" cy="158" rx="7" ry="4" fill="#7A4033" transform="rotate(20 150 158)"/>
-            <ellipse cx="162" cy="165" rx="6" ry="4" fill="#F0A671" transform="rotate(50 162 165)"/>
-            <ellipse cx="158" cy="178" rx="7" ry="4" fill="#966D5E" transform="rotate(80 158 178)"/>
-            <ellipse cx="145" cy="182" rx="6" ry="4" fill="#DC8766" transform="rotate(110 145 182)"/>
-            <ellipse cx="137" cy="172" rx="7" ry="4" fill="#F0BE83" transform="rotate(140 137 172)"/>
-            <ellipse cx="142" cy="160" rx="6" ry="4" fill="#B07256" transform="rotate(-40 142 160)"/>
-          </g>
-        </svg>
+        <img src="images/logo-mark.png" alt="" class="concept-symbol">
       </div>
     </div>
   </div>
