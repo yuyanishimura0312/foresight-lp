@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>未来洞察実装プロジェクト 2026 — Emerging Future, we already have.</title>
   <meta name="description" content="伝統知が拓く、未来創造のイノベーション。ウェイファインディングと未来学の構造的平行から、未来創造の型をつくる。ミラツク × UNIVERSITY of CREATIVITY × 博報堂">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23111'/><text x='16' y='22' text-anchor='middle' fill='white' font-size='18' font-family='Georgia,serif'>e</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%237A4033'/><ellipse cx='16' cy='11' rx='3' ry='2' fill='%23F0A671' transform='rotate(-20 16 11)'/><ellipse cx='22' cy='14' rx='3' ry='2' fill='%23F8CDAC' transform='rotate(20 22 14)'/><ellipse cx='24' cy='20' rx='3' ry='2' fill='%23DC8766' transform='rotate(50 24 20)'/><ellipse cx='20' cy='25' rx='3' ry='2' fill='%23F0BE83' transform='rotate(80 20 25)'/><ellipse cx='13' cy='26' rx='3' ry='2' fill='%23B07256' transform='rotate(110 13 26)'/><ellipse cx='9' cy='21' rx='3' ry='2' fill='%23EFC4A4' transform='rotate(140 9 21)'/><ellipse cx='9' cy='15' rx='3' ry='2' fill='%23F2C792' transform='rotate(-50 9 15)'/><ellipse cx='16' cy='18' rx='2' ry='1.5' fill='%23F8CDAC' transform='rotate(30 16 18)'/></svg>">
   <style>
     :root {
       --deep: #7A4033; --terra: #DC8766; --amber: #B07256; --gold: #F0A671;
@@ -62,11 +62,6 @@
     .why-card p { font-size: 13px; color: #555; line-height: 1.9; }
     .why-conclusion { text-align: center; margin-top: 32px; font-family: "Hiragino Mincho ProN", serif; font-size: 16px; color: var(--deep); font-weight: 700; line-height: 1.8; }
 
-    /* Stats */
-    .stats { background: var(--deep); color: white; }
-    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; }
-    .stat-n { font-family: "Hiragino Mincho ProN", serif; font-size: 44px; font-weight: 700; color: var(--peach); line-height: 1.1; }
-    .stat-l { font-size: 12px; color: rgba(255,255,255,0.65); margin-top: 6px; }
 
     /* Key Concept */
     .concept { background: linear-gradient(160deg, #7A4033, #5c2e1f); color: white; padding: 100px 32px; }
@@ -230,8 +225,7 @@
 
     /* Responsive */
     @media (max-width: 768px) {
-      .stats-grid { grid-template-columns: repeat(2, 1fr); }
-      .why-grid { grid-template-columns: 1fr; }
+.why-grid { grid-template-columns: 1fr; }
       .parts-grid { grid-template-columns: 1fr; }
       .part:not(:last-child) { border-right: none; border-bottom: 1px solid #d5d0ca; }
       .steps-flow { grid-template-columns: 1fr; gap: 16px; }
@@ -360,17 +354,6 @@
   </div>
 </section>
 
-<!-- Stats -->
-<section class="stats">
-  <div class="container">
-    <div class="stats-grid">
-      <div><div class="stat-n">342</div><div class="stat-l">CLA分析（36年間）</div></div>
-      <div><div class="stat-n">411</div><div class="stat-l">弱シグナル検出</div></div>
-      <div><div class="stat-n">22K</div><div class="stat-l">件のVoros未来予測</div></div>
-      <div><div class="stat-n">125</div><div class="stat-l">年間のメタ分析</div></div>
-    </div>
-  </div>
-</section>
 
 <!-- Key Concept -->
 <section class="concept">
